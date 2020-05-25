@@ -1,0 +1,27 @@
+{
+  "name": "nss",
+  "version": "1.0.0",
+  "description": "node static server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wedog/nss.git"
+  },
+  "keywords": [
+    "node",
+    "static",
+    "server"
+  ],
+  "author": "ly_wuyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wedog/nss/issues"
+  },
+  "homepage": "https://github.com/wedog/nss#readme",
+  "dependencies": {
+    "mime": "^2.4.5"
+  }
+}
