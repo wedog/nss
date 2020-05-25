@@ -1,0 +1,2 @@
+# nss
+node static server
