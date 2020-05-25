@@ -9,8 +9,6 @@ const distPath = path.resolve(__dirname, "dist");
 
 http.createServer((req, res) => {
   let pathname = url.parse(req.url).pathname;
-  console.log("==req.url==>" + req.url);
-  console.log("==pathname==>" + pathname);
 
   if (path.sep === pathname) {
     pathname = path.join(pathname, "index.html");
