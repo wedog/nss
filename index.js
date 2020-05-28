@@ -36,6 +36,6 @@ http.createServer((req, res) => {
 
   });
 
-}).listen(httpPort, () => {
-  console.log('Server listening on: http://localhost:%s', httpPort)
+}).listen(httpPort, '0.0.0.0', () => {
+  console.log('Server listening on: http://0.0.0.0:%s',httpPort)
 })
